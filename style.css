@@ -1,0 +1,199 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Where were you last? You left off trying to sort out each section's vertical size and had just finished off with the initial layout of the info-container. ////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.header,
+.hero-container,
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8 ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 192px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;  
+    justify-content: stretch;
+    align-items: stretch;
+    flex: auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 64px;
+
+}
+
+button {
+    border-style: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 32px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-image {
+    display: flex;
+    background-color: grey ;
+    height: 200px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-basis: 30%;
+    gap: 8px;
+}
+
+.hero-text p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p,
+.header-link {
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    gap: 32px;
+}
+
+.info-container > p {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 128px;
+    text-align: center;
+}
+
+.placeholder-image {
+    height: 128px;
+    width: 128px;
+    border: 4px solid blue;
+    border-radius: 12px;
+}
+
+.testimony-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+
+}
+
+.testimony{
+    max-width: 55%;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}   
+
+.attribution {
+    align-self:flex-end;
+    padding-right: 25%;
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 48px 96px;
+    border-radius: 9px;
+    gap: 96px;
+    color: #f9faf8 ;
+}
+
+.signup-text h2, p{
+    padding: 0;
+    margin: 0;
+}
+
+.signup button {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 32px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px;
+}
